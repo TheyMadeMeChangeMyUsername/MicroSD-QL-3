@@ -22,8 +22,10 @@ other unknowns:
 1) does chair SEARCH/COMPARE  SD card contents for NEW configurations on every bootup?
 2) after a successful configuration change, does the chair write an identifier to the card? or somehow otherwise invalidate the card for future use?
 
-assumption: the root of the SD card has a 'directoy' file that is refrenced for quick comparison, and directs to other files on the card if reconfiguration is required
+assumption: the root of the SD card has a 'directory' file that is refrenced for quick comparison, and directs to other files on the card if reconfiguration is required
 
 there are currently 4 micro SD cards uploaded here, and they have NEVER been connected to a chair
+
+(and a 5th 'used' sd card from a chair with an unknown cofiguration)
 
 soon i will be connecting (copies of) them to a chair, and uploading the cards again after a configuration change has completed to see if there are any differences
