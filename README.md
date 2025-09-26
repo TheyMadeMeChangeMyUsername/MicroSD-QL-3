@@ -1,9 +1,14 @@
 the goal here is to identify the different types of files on these SD cards
 these are configuration files from quantum Q-Logic 3 power wheelchairs
+
 each card is placed into the joystick and automatically configures the chair for the connected components on the next power-up
 (power seating, type of motors used, max speed ratings, motor compensation etc)
+
 when components on the chairs are changed (like adding power seating or swapping to faster motors) the SD cards configure the chair's modules, and then are left in the chair.
-if the card is later removed however, the configuration will remain on the control modules in the chair.  these are a 'one shot' type programming setup, but are intended to be LEFT IN the joystick
+
+if the card is later removed however, the configuration will remain on the control modules in the chair.  
+
+these are a 'one shot' type programming setup, but are intended to be LEFT IN the joystick
 in other words, it doesnt need to reference these SD card configuration files on EVERY bootup.  (it still might do this - but is unknown right now)
 
 we want to figure out which files reference which functions so that a library/catalog can be built, and files can be picked thru to create custom configurations WITHOUT relying on DME's and manufacturers
