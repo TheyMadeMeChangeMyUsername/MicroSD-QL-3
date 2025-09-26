@@ -14,7 +14,7 @@ in other words, it doesnt need to reference these SD card configuration files on
 we want to figure out which files reference which functions so that a library/catalog can be built, and files can be picked thru to create custom configurations WITHOUT relying on DME's and manufacturers
 to make changes on the chairs.  
 
-after configuration has been completed (and just in general) on every powerup the chairs looks for an EXFAT micro SD card to be present. if a card is NOT present, the chair will throw an error
+after configuration has been completed (and just in general) on every powerup the chairs looks for an FAT32 formatted micro SD card to be present. if a card is NOT present, the chair will throw an error
 (but after a short delay the chair will continue to function normally without an SD card present)
 the SD card can be EMPTY when this check happens, and there will be NO error
 
